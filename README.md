@@ -18,11 +18,24 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 - [Metaphysics](/metaphysics/)
 - [English Studies](/english-studies/)
-- [Literary Theory](/literary-theory/)
+- [Literature](/literature/)
 - [Creative Writing](/creative-writing/)
 - [Philosophy](/philosophy/)
+- [History](/history/)
+- [Classics](/classics/)
 
 ### Social science
 
 - [Sociology](/sociology/)
-- [Clinical Psychology](/clinical-psychology/)
+- [Psychology](/psychology/)
+- [Anthropology](/anthropology/)
+
+## Arts and Communications
+- Film and Media Studies
+- Journalism
+
+## Education and Community Services
+- Elementary Education
+- Secondary Education
+- Special Education
+- Social Work
