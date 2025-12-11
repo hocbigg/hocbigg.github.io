@@ -35,5 +35,5 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 - [Journalism](/journalism/)
 
 ## Education and Community Services
-- [Special Education]()
-- [Social Work]()
+- [Special Education](/special-education/)
+- [Social Work](/social-work/)
