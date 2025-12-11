@@ -31,11 +31,9 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 - [Anthropology](/anthropology/)
 
 ## Arts and Communications
-- Film and Media Studies
-- Journalism
+- [Film and Media Studies](/film-and-media-studies/)
+- [Journalism](/journalism/)
 
 ## Education and Community Services
-- Elementary Education
-- Secondary Education
-- Special Education
-- Social Work
+- [Special Education]()
+- [Social Work]()
