@@ -31,12 +31,6 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
     - [Ancient Languages](#ancient-languages)
 - [Literature & Philology](#literature--philology)
 - [Social Sciences](#social-sciences)
-    - [Anthropology](#anthropology)
-    - [Sociology](#sociology)
-    - [Political Science](#political-science)
-    - [Human Geography](#human-geography)
-    - [Psychology](#psychology)
-    - [Applied Social Sciences](#applied-social-sciences)
 - [Education](#education)
 - [Communication & Media](#communication--media)
 - [Area and Civilization Studies](#area-and-civilization-studies)
@@ -48,15 +42,15 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 ## Humanities
 
-- [Get a free humanities education on YouTube - Thought Couture](https://thoughtcouture.substack.com/p/get-a-free-humanities-education-on)
+- Humanities - [Get a free humanities education on YouTube - Thought Couture](https://thoughtcouture.substack.com/p/get-a-free-humanities-education-on)
 
 ### History
 
 - [History](/history/)
 - [Ancient History](/ancient-history/)
 - [World History](/world-history/)
-- Medieval History
-- Modern History
+- [Medieval History](/medieval-history/)
+- [Modern History](/modern-history/)
 
 ### Philosophy
 
@@ -64,51 +58,48 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 - [Metaphysics](/metaphysics/) - also [Outline of metaphysics (Wikipedia)](https://en.wikipedia.org/wiki/Outline_of_metaphysics)
 - Moral Philosophy (Ethics)
 - Epistemology
-- Logic
+- [Logic](/logic/)
 
 **Non-Western philosophical traditions:**
 
-- Chinese Philosophy
-- Indian Philosophy
-- Islamic Philosophy
+- [Chinese Philosophy](/chinese-philosophy/)
+- [Indian Philosophy](/indian-philosophy/)
 
 ### Arts
 
-- Drawing
+- [Drawing](/drawing/)
 - [Film and Media Studies](/film-and-media-studies/)
 
 ## Languages
 
 ### Classical & Global Languages
 
-- English - [Antimoon](https://www.antimoon.com/)
-- French
-- German
-- Spanish - [Spanish (Refold)](https://refold.link/spanish)
-- Portuguese
-- Italian
-- Russian
+- English - [Antimoon](https://www.antimoon.com/), [English (Refold)](https://refold.la/how-to-learn-english/)
+- French - [French (Refold)](https://refold.la/how-to-learn-french/)
+- German - [German (Refold)](https://refold.la/how-to-learn-german/)
+- Spanish - [Spanish (Refold)](https://refold.la/how-to-learn-spanish/)
+- Portuguese - [Portuguese (Refold)](https://refold.la/how-to-learn-portuguese/)
+- Italian - [Italian (Refold)](https://refold.la/how-to-learn-italian/)
+- Russian - [Russian (Refold)](https://refold.la/how-to-learn-russian/)
 
 ### Middle Eastern & South Asian Languages
 
-- Arabic
+- Arabic - [Arabic (Refold)](https://refold.la/how-to-learn-arabic/)
 - Persian
-- Hebrew
-- Sanskrit
-- Urdu
+- Hebrew - [Hebrew (Refold)](https://refold.la/how-to-learn-hebrew/)
 
 ### East Asian Languages
 
-- Chinese
-- Japanese - [TheMoeWay](http://learnjapanese.moe/)
-- Korean
+- Chinese - [Mandarin (Refold)](https://refold.la/how-to-learn-mandarin/), [Cantonese (Refold)](https://refold.la/how-to-learn-cantonese/)
+- Japanese - [TheMoeWay](http://learnjapanese.moe/), [Donkuri](https://donkuri.github.io/learn-japanese/)
+- Korean - [Korean (Refold)](https://refold.la/how-to-learn-korean)
 
 ### Southeast Asian & Indigenous Languages
 
 - Vietnamese - [Vietnamese (Khu học mở)](https://daihocmo.github.io/learn-vietnamese/)
-- Thai
-- Indonesian
-- Malay
+- Thai - [Thai (Refold)](https://refold.la/how-to-learn-thai/)
+- Indonesian - [Indonesian (Refold)](https://refold.la/how-to-learn-indonesian/)
+- Tagalog - [Tagalog (Refold)](https://refold.la/how-to-learn-tagalog/)
 
 ### Ancient Languages
 
@@ -125,37 +116,14 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 ## Social Sciences
 
-### Anthropology
-
 - [Anthropology](/anthropology/)
-- Cultural Anthropology
-- Social Anthropology
-
-### Sociology
-
 - [Sociology](/sociology/)
-- Social Theory
-
-### Political Science
-
 - Political Science
-- Political Theory
-
-### Human Geography
-
+- [Psychology](/psychology/)
+- [Social Work](/social-work/)
 - Human Geography
 - Cultural Geography
 - Political Geography
-
-### Psychology
-
-- [Psychology](/psychology/)
-- Social Psychology
-- Developmental Psychology
-
-### Applied Social Sciences
-
-- [Social Work](/social-work/)
 
 ## Education
 
@@ -170,18 +138,18 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 ## Area and Civilization Studies
 
-- Asian Studies
-- African Studies
-- Middle Eastern Studies
-- European Studies
-- Latin American Studies
+- [Asian Studies](/asian-studies/)
+- [African Studies](/african-studies/)
+- [European Studies](/european-studies/)
+- [Latin American Studies](/latin-american-studies/)
 
 ## Cultural & Heritage Studies
 
-- Cultural History
-- Folklore Studies
+- [Cultural History](/cultural-history/)
+- [Folklore Studies](/folklore-studies/)
 - Heritage Studies
 - Museum Studies
+- Library and Information Studies
 
 ## Professional & Applied Studies
 
