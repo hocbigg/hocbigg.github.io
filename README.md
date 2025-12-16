@@ -59,16 +59,13 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 - [Moral Philosophy (Ethics)](/moral-philosophy/)
 - [Epistemology](/epistemology/)
 - [Logic](/logic/)
-
-**Non-Western philosophical traditions:**
-
 - [Chinese Philosophy](/chinese-philosophy/)
 - [Indian Philosophy](/indian-philosophy/)
 
 ### Arts
 
 - [Drawing](/drawing/)
-- [Film and Media Studies](/film-and-media-studies/)
+- [Creative Writing](/creative-writing/)
 
 ## Languages
 
@@ -110,7 +107,6 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 ## Literature & Philology
 
 - [Literature](/literature/)
-- [Creative Writing](/creative-writing/)
 - [English Studies](/english-studies/)
 - [Classics](/classics/) - also [Outline of classical studies (Wikipedia)](https://en.wikipedia.org/wiki/Outline_of_classical_studies)
 
@@ -135,6 +131,7 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 - [Communication studies](/communication-studies/)
 - [Journalism](/journalism/)
 - [Rhetoric](/rhetoic/)
+- [Film and Media Studies](/film-and-media-studies/)
 
 ## Area and Civilization Studies
 
@@ -149,13 +146,13 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 - [Folklore Studies](/folklore-studies/)
 - [Heritage Studies](heritage-studies/)
 - [Museum Studies](/museum-studies/)
-- [Library and Information Studies](/library-and-information-studies/)
 
 ## Professional & Applied Studies
 
 - [Project management](/project-management/)
 - [Public Administration](/public-administration/)
 - [Nonprofit Management](/nonprofit-management/)
+- [Library and Information Studies](/library-and-information-studies/)
 
 ## Formal science
 
