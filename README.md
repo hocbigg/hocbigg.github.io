@@ -56,8 +56,8 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 - [Philosophy](/philosophy/)
 - [Metaphysics](/metaphysics/) - also [Outline of metaphysics (Wikipedia)](https://en.wikipedia.org/wiki/Outline_of_metaphysics)
-- Moral Philosophy (Ethics)
-- Epistemology
+- [Moral Philosophy (Ethics)](/moral-philosophy/)
+- [Epistemology](/epistemology/)
 - [Logic](/logic/)
 
 **Non-Western philosophical traditions:**
@@ -103,9 +103,9 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 ### Ancient Languages
 
-- Latin
-- Ancient Greek
-- Classical Chinese
+- [Latin](/latin/)
+- [Ancient Greek](/ancient-greek/)
+- [Classical Chinese](/classical-chinese/)
 
 ## Literature & Philology
 
@@ -118,12 +118,12 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 - [Anthropology](/anthropology/)
 - [Sociology](/sociology/)
-- Political Science
+- [Political Science](/political-science/)
 - [Psychology](/psychology/)
 - [Social Work](/social-work/)
-- Human Geography
-- Cultural Geography
-- Political Geography
+- [Human Geography](/human-geography/)
+- [Cultural Geography](/cultural-geography/)
+- [Political Geography](/political-geography/)
 
 ## Education
 
@@ -134,7 +134,7 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 - [Communication studies](/communication-studies/)
 - [Journalism](/journalism/)
-- Rhetoric
+- [Rhetoric](/rhetoic/)
 
 ## Area and Civilization Studies
 
@@ -147,15 +147,15 @@ Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organiz
 
 - [Cultural History](/cultural-history/)
 - [Folklore Studies](/folklore-studies/)
-- Heritage Studies
-- Museum Studies
-- Library and Information Studies
+- [Heritage Studies](heritage-studies/)
+- [Museum Studies](/museum-studies/)
+- [Library and Information Studies](/library-and-information-studies/)
 
 ## Professional & Applied Studies
 
 - [Project management](/project-management/)
-- Public Administration
-- Nonprofit Management
+- [Public Administration](/public-administration/)
+- [Nonprofit Management](/nonprofit-management/)
 
 ## Formal science
 
