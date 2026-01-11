@@ -17,6 +17,10 @@ Welcome to Hocbigg!
 
 Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organization>) whose mission is to empower learners to master college curricula through free resources (Inspired by [OSSU](https://ossu.dev/), [Outline of academic disciplines](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines) and many other free & open source curricula on the Internet).
 
+Join our Discord server (for discussions around this and other curricula): 
+    
+[![discord link](assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
+
 ## Outline of academic disciplines
 
 - [Humanities](#humanities)
