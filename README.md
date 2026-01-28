@@ -6,11 +6,6 @@
 </p>
 <p>Choose a major and start today!
 </p>
-<p>
-  <a href="https://github.com/hocbigg/">
-    <img alt="Hocbigg" src="/images/view_on_github.svg"
-  ></a>
-</p>
 </div>
 
 Welcome to Hocbigg!
