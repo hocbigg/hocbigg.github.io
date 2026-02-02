@@ -55,7 +55,9 @@ Join our Discord server (for discussions around this and other curricula):
 
 ### Philosophy
 
-- [Philosophy (Hocbigg)](/philosophy/) - [So You Want to Study Philosophy… (Susan Rigetti)](https://www.susanrigetti.com/philosophy)
+- Philosophy:
+    - [Philosophy (Hocbigg)](/philosophy/)
+    - [So You Want to Study Philosophy… (Susan Rigetti)](https://www.susanrigetti.com/philosophy)
 - [Metaphysics](/metaphysics/)
 - [Moral Philosophy (Ethics)](/moral-philosophy/)
 - [Epistemology](/epistemology/)
@@ -78,7 +80,9 @@ Join our Discord server (for discussions around this and other curricula):
 
 ### European Languages
 
-- English - [Antimoon](https://www.antimoon.com/), [English (Refold)](https://refold.la/how-to-learn-english/)
+- English
+    - [Antimoon](https://www.antimoon.com/)
+    - [English (Refold)](https://refold.la/how-to-learn-english/)
 - French - [French (Refold)](https://refold.la/how-to-learn-french/)
 - German - [German (Refold)](https://refold.la/how-to-learn-german/)
 - Spanish - [Spanish (Refold)](https://refold.la/how-to-learn-spanish/)
@@ -95,7 +99,10 @@ Join our Discord server (for discussions around this and other curricula):
 ### East Asian Languages
 
 - Chinese - [Mandarin (Refold)](https://refold.la/how-to-learn-mandarin/), [Cantonese (Refold)](https://refold.la/how-to-learn-cantonese/)
-- Japanese - [TheMoeWay](http://learnjapanese.moe/), [Donkuri](https://donkuri.github.io/learn-japanese/), [Tatsumoto (AJATT)](https://tatsumoto-ren.github.io/)
+- Japanese:
+    - [TheMoeWay](http://learnjapanese.moe/)
+    - [Donkuri](https://donkuri.github.io/learn-japanese/)
+    - [Tatsumoto (AJATT)](https://tatsumoto-ren.github.io/)
 - Korean - [Korean (Refold)](https://refold.la/how-to-learn-korean)
 
 ### Southeast Asian & Indigenous Languages
@@ -122,8 +129,12 @@ Join our Discord server (for discussions around this and other curricula):
 - [Visual Arts / Drawing / Painting](/drawing/)
 - [Creative Writing](/creative-writing/)
 - Music
-- Film & Media Production - [Skip Film School and Learn the Basics](https://nofilmschool.com/film-school-curriculum), [A Complete Roadmap to Learning Cinematography - Wolfcrow](https://wolfcrow.com/a-complete-roadmap-to-learning-cinematography/)
-- Photography - [The Focal Point Photoclass](https://www.thefocalpointhub.com/photoclass-2026), [Learn to Shoot Better](https://johnmakphotography.com/learn/)
+- Film & Media Production:
+    - [Skip Film School and Learn the Basics](https://nofilmschool.com/film-school-curriculum)
+    - [A Complete Roadmap to Learning Cinematography - Wolfcrow](https://wolfcrow.com/a-complete-roadmap-to-learning-cinematography/)
+- Photography:
+    - [The Focal Point Photoclass](https://www.thefocalpointhub.com/photoclass-2026)
+    - [Learn to Shoot Better](https://johnmakphotography.com/learn/)
 - Architecture
 - Graphic Design - [Graphic Design Specialization - Coursera](https://www.coursera.org/specializations/graphic-design)
 
@@ -141,7 +152,11 @@ Join our Discord server (for discussions around this and other curricula):
 
 ## Business & Management
 
-- Business Administration - [Self-Study MBA Reading List - Hampus Wessman](https://hampuswessman.se/2022/07/self-study-mba-reading-list/), [Springboard - MBA Essentials](https://www.springboard.com/resources/learning-paths/mba/), [MBA First-Semester Core – MIT Sloan School of Management](https://ocw.mit.edu/collections/sloan-mba-first-semester-core), [MBA Online - Roadmap.sh](https://roadmap.sh/r/mba-self-taught)
+- Business Administration:
+    - [Self-Study MBA Reading List - Hampus Wessman](https://hampuswessman.se/2022/07/self-study-mba-reading-list/)
+    - [Springboard - MBA Essentials](https://www.springboard.com/resources/learning-paths/mba/)
+    - [MBA First-Semester Core – MIT Sloan School of Management](https://ocw.mit.edu/collections/sloan-mba-first-semester-core)
+    - [MBA Online - Roadmap.sh](https://roadmap.sh/r/mba-self-taught)
 - Accounting - [AccountingCoach](https://www.accountingcoach.com/)
 - Marketing - [Digital Marketing Learning Roadmap - Coursera](https://www.coursera.org/resources/digital-marketing-learning-roadmap)
 - [Project Management (Hocbigg)](/project-management/) - [Project Management - Roadmap.sh](https://roadmap.sh/r/project-management-crez9)
@@ -185,10 +200,15 @@ Join our Discord server (for discussions around this and other curricula):
 - Biology - [Explorer's Guide to Biology (XBio)](https://explorebiology.org/)
 - Bioinformatics - [Bioinformatics (OSSU)](https://github.com/ossu/bioinformatics)
 - Chemistry - [Open Chemistry (OpenChem) – UC Irvine (UCI Open)](https://ocw.uci.edu/collections/open_chemistry.html)
-- Physics - [So You Want to Learn Physics… - SECOND EDITION (Susan Rigetti)](https://www.susanrigetti.com/physics), [How to Become a GOOD Theoretical Physicist – Gerard 't Hooft](https://www.goodtheorist.science/), [Open-Source Physics Curriculum](https://github.com/Bassamejlaoui/Open-Source-Physics-Curicculum)
+- Physics
+    - [So You Want to Learn Physics… - SECOND EDITION (Susan Rigetti)](https://www.susanrigetti.com/physics)
+    - [How to Become a GOOD Theoretical Physicist – Gerard 't Hooft](https://www.goodtheorist.science/)
+    - [Open-Source Physics Curriculum](https://github.com/Bassamejlaoui/Open-Source-Physics-Curicculum)
 - Earth Sciences
 - Environmental Science
-- Agriculture - [Beginning Farmer Training Program - OFRF](https://ofrf.org/beginning-farmer-training-program/), [Beginning Farmer Curriculum](https://www.beginningfarmercurriculum.org/)
+- Agriculture
+    - [Beginning Farmer Training Program - OFRF](https://ofrf.org/beginning-farmer-training-program/)
+    - [Beginning Farmer Curriculum](https://www.beginningfarmercurriculum.org/)
 - Nutrition
 
 ## Engineering & Technology
@@ -206,12 +226,16 @@ Join our Discord server (for discussions around this and other curricula):
 ### Mathematics
 
 - Pre-college Mathematics - [Pre-college Mathematics - OSSU](https://ossu.dev/precollege-math/)
-- Mathematics - [So You Want to Study Mathematics… (Susan Rigetti)](https://www.susanrigetti.com/math), [Mathematics - OSSU](https://math.ossu.dev/)
+- Mathematics
+    - [So You Want to Study Mathematics… (Susan Rigetti)](https://www.susanrigetti.com/math)
+    - [Mathematics - OSSU](https://math.ossu.dev/)
 - Statistics - [Statistics and Probability – Khan Academy](https://www.khanacademy.org/math/statistics-probability)
 
 ### Computer & Information Sciences
 
-- Computer Science - [Teach Yourself Computer Science](https://teachyourselfcs.com/), [Computer Science (OSSU)](https://cs.ossu.dev/)
+- Computer Science:
+    - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+    - [Computer Science (OSSU)](https://cs.ossu.dev/)
 - Data Science - [Data Science (OSSU)](https://ds.ossu.dev/)
 - Cybersecurity - [Cyber Security (Awesome Cyber Security University)](https://brootware.github.io/awesome-cyber-security-university/)
 
