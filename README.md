@@ -6,7 +6,7 @@ description: Empowering learners to master college curricula through free resour
 
 Welcome to Hocbigg!
 
-Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organization>) whose mission is to empower learners to master college curricula through free resources (Inspired by [OSSU](https://ossu.dev/), [Outline of academic disciplines](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines) and many other free & open source curricula on the Internet).
+Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organization>) whose mission is to empower learners to master college curricula through free resources (Inspired by [OSSU](https://ossu.dev/), [Outline of academic disciplines](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines) and many other free and open source curricula on the Internet).
 
 Join our Discord server (for discussions around this and other curricula): 
     
@@ -17,28 +17,28 @@ Join our Discord server (for discussions around this and other curricula):
 - [Humanities](#humanities)
     - [History](#history)
     - [Philosophy](#philosophy)
-    - [Literature & Classics](#literature--classics)
-    - [Religious & Cultural Studies](#religious--cultural-studies)
-- [Languages & Linguistics](#languages--linguistics)
+    - [Literature and Classics](#literature-and-classics)
+    - [Religious and Cultural Studies](#religious-and-cultural-studies)
+- [Languages and Linguistics](#languages-and-linguistics)
     - [European Languages](#european-languages)
-    - [Middle Eastern & South Asian Languages](#middle-eastern--south-asian-languages)
+    - [Middle Eastern and South Asian Languages](#middle-eastern-and-south-asian-languages)
     - [East Asian Languages](#east-asian-languages)
-    - [Southeast Asian & Indigenous Languages](#southeast-asian--indigenous-languages)
+    - [Southeast Asian and Indigenous Languages](#southeast-asian-and-indigenous-languages)
     - [Ancient Languages](#ancient-languages)
-    - [Linguistics & Related](#linguistics--related)
-- [Arts & Design](#arts--design)
+    - [Linguistics and Related](#linguistics-and-related)
+- [Arts and Design](#arts-and-design)
 - [Social Sciences](#social-sciences)
-- [Business & Management](#business--management)
-- [Law & Public Policy](#law--public-policy)
+- [Business and Management](#business-and-management)
+- [Law and Public Policy](#law-and-public-policy)
 - [Education](#education)
-- [Communication & Media](#communication--media)
-- [Area, Ethnic & Cultural Studies](#area-ethnic--cultural-studies)
+- [Communication and Media](#communication-and-media)
+- [Area, Ethnic and Cultural Studies](#area-ethnic-and-cultural-studies)
 - [Natural Sciences](#natural-sciences)
-- [Engineering & Technology](#engineering--technology)
-- [Mathematics & Computer Science](#mathematics--computer-science)
+- [Engineering and Technology](#engineering-and-technology)
+- [Mathematics and Computer Science](#mathematics-and-computer-science)
     - [Mathematics](#mathematics)
-    - [Computer & Information Sciences](#computer--information-sciences)
-- [Other / Interdisciplinary](#other--interdisciplinary)
+    - [Computer and Information Sciences](#computer-and-information-sciences)
+- [Other](#other)
 
 <!-- /TOC -->
 
@@ -65,18 +65,18 @@ Join our Discord server (for discussions around this and other curricula):
 - [Chinese Philosophy](/chinese-philosophy/)
 - [Indian Philosophy](/indian-philosophy/)
 
-### Literature & Classics
+### Literature and Classics
 
 - [Literature](/literature/)
 - [English Studies](/english-studies/)
 - [Classics](/classics/) 
 
-### Religious & Cultural Studies
+### Religious and Cultural Studies
 
 - Theology - [Self-study theology degree reading plan](https://www.gospelsimplicity.com/blog/self-study-theology-degree-reading-plan)
 - Women's Studies
 
-## Languages & Linguistics
+## Languages and Linguistics
 
 ### European Languages
 
@@ -90,7 +90,7 @@ Join our Discord server (for discussions around this and other curricula):
 - Italian - [Italian (Refold)](https://refold.la/how-to-learn-italian/)
 - Russian - [Russian (Refold)](https://refold.la/how-to-learn-russian/)
 
-### Middle Eastern & South Asian Languages
+### Middle Eastern and South Asian Languages
 
 - Arabic - [Arabic (Refold)](https://refold.la/how-to-learn-arabic/)
 - Persian
@@ -105,7 +105,7 @@ Join our Discord server (for discussions around this and other curricula):
     - [Tatsumoto (AJATT)](https://tatsumoto-ren.github.io/)
 - Korean - [Korean (Refold)](https://refold.la/how-to-learn-korean)
 
-### Southeast Asian & Indigenous Languages
+### Southeast Asian and Indigenous Languages
 
 - Vietnamese - [Vietnamese (Khu học mở)](https://daihocmo.github.io/learn-vietnamese/)
 - Thai - [Thai (Refold)](https://refold.la/how-to-learn-thai/)
@@ -118,18 +118,18 @@ Join our Discord server (for discussions around this and other curricula):
 - [Ancient Greek](/ancient-greek/)
 - [Classical Chinese](/classical-chinese/)
 
-### Linguistics & Related
+### Linguistics and Related
 
 - Linguistics - [How to teach yourself linguistics online for free - All Things Linguistic](https://allthingslinguistic.com/post/164874346205/how-to-teach-yourself-linguistics-online-for-free)
 - Sign Language
 
-## Arts & Design
+## Arts and Design
 
 - Fine Arts - [DIY Art School - A complete guide to learning art on your own](https://louisestigell.com/blogs/blog/diy-art-school-a-complete-guide-to-learning-art-on-your-own)
 - [Visual Arts / Drawing / Painting](/drawing/)
 - [Creative Writing](/creative-writing/)
 - Music
-- Film & Media Production:
+- Film and Media Production:
     - [Skip Film School and Learn the Basics](https://nofilmschool.com/film-school-curriculum)
     - [A Complete Roadmap to Learning Cinematography - Wolfcrow](https://wolfcrow.com/a-complete-roadmap-to-learning-cinematography/)
 - Photography:
@@ -150,7 +150,7 @@ Join our Discord server (for discussions around this and other curricula):
 - Criminology / Criminal Justice - [Criminal Justice - Course Sidekick](https://www.coursesidekick.com/law/study-guides/atd-bmcc-criminaljustice)
 - [Social Work](/social-work/)
 
-## Business & Management
+## Business and Management
 
 - Business Administration:
     - [Self-Study MBA Reading List - Hampus Wessman](https://hampuswessman.se/2022/07/self-study-mba-reading-list/)
@@ -162,7 +162,7 @@ Join our Discord server (for discussions around this and other curricula):
 - [Project Management (Hocbigg)](/project-management/) - [Project Management - Roadmap.sh](https://roadmap.sh/r/project-management-crez9)
 - [Nonprofit Management](/nonprofit-management/)
 
-## Law & Public Policy
+## Law and Public Policy
 
 - [Public Administration](/public-administration/)
 - Public Policy - [U.S. Government and Civics + Policy Process – Khan Academy](https://www.khanacademy.org/humanities/us-government-and-civics)
@@ -174,7 +174,7 @@ Join our Discord server (for discussions around this and other curricula):
 - Elementary / Secondary Education
 - [Special Education](/special-education/)
 
-## Communication & Media
+## Communication and Media
 
 - [Communication studies](/communication-studies/)
 - [Journalism](/journalism/)
@@ -182,7 +182,7 @@ Join our Discord server (for discussions around this and other curricula):
 - [Film and Media Studies](/film-and-media-studies/)
 - Public Relations
 
-## Area, Ethnic & Cultural Studies
+## Area, Ethnic and Cultural Studies
 
 - [Asian Studies](/asian-studies/)
 - [African Studies](/african-studies/)
@@ -190,8 +190,8 @@ Join our Discord server (for discussions around this and other curricula):
 - [Latin American Studies](/latin-american-studies/)
 - Middle Eastern Studies
 - American Studies
-- Ethnic & Cultural Studies
-- Gender & Sexuality Studies
+- Ethnic and Cultural Studies
+- Gender and Sexuality Studies
 - [Folklore Studies](/folklore-studies/)
 - [Heritage Studies](heritage-studies/)
 
@@ -211,7 +211,7 @@ Join our Discord server (for discussions around this and other curricula):
     - [Beginning Farmer Curriculum](https://www.beginningfarmercurriculum.org/)
 - Nutrition
 
-## Engineering & Technology
+## Engineering and Technology
 
 - System Engineer - [System Engineer - Roadmap.sh](https://roadmap.sh/r/system-engineer)
 - BioEngineering - [BioEngineering and Bioinformatics Pathway - Roadmap.sh](https://roadmap.sh/r/biological-and-bioprocess-engineering)
@@ -219,9 +219,9 @@ Join our Discord server (for discussions around this and other curricula):
 - BioMedical Engineering - [BioMedical Engineering - Roadmap.sh](https://roadmap.sh/r/biomedical-engineering-u9o35)
 - ML Engineer - [ML Engineer - Roadmap.sh](https://roadmap.sh/r/ml-engineer-3dqvu)
 
-## Mathematics & Computer Science
+## Mathematics and Computer Science
 
-**Note**: Hocbigg primarily focuses on anything (kinda broad ik) except math & computer science (a.k.a Formal science) so this section is meant for external roadmaps/curricula only.
+**Note**: Hocbigg primarily focuses on anything (kinda broad ik) except math and computer science (a.k.a Formal science) so this section is meant for external roadmaps/curricula only.
 
 ### Mathematics
 
@@ -231,7 +231,7 @@ Join our Discord server (for discussions around this and other curricula):
     - [Mathematics - OSSU](https://math.ossu.dev/)
 - Statistics - [Statistics and Probability – Khan Academy](https://www.khanacademy.org/math/statistics-probability)
 
-### Computer & Information Sciences
+### Computer and Information Sciences
 
 - Computer Science:
     - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
@@ -239,7 +239,7 @@ Join our Discord server (for discussions around this and other curricula):
 - Data Science - [Data Science (OSSU)](https://ds.ossu.dev/)
 - Cybersecurity - [Cyber Security (Awesome Cyber Security University)](https://brootware.github.io/awesome-cyber-security-university/)
 
-## Other / Interdisciplinary
+## Other
 
 - [Library and Information Studies](/library-and-information-studies/)
 - [Museum Studies](/museum-studies/)
