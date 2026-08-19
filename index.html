@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+
+  <title>Hocbigg</title>
+  <meta name="description" content="Empowering learners to master college curricula through free resources.">
+  <meta name="author" content="hocbigg">
+
+  <link rel="canonical" href="https://hocbigg.github.io/">
+  <meta property="og:title" content="Hocbigg">
+  <meta property="og:description" content="Empowering learners to master college curricula through free resources.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 1. Mở rộng độ rộng trang & font chữ thoáng hơn */
+body {
+  margin: 1.5rem auto;
+  max-width: min(60rem, 92vw);
+  padding: 0 0.75rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
+}
+
+/* 2. Thiết kế lại Navbar: sạch sẽ, có đường phân cách và phân biệt Brand/Link */
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+/* Làm nổi bật Logo / Tên thương hiệu ở đầu Navbar */
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+/* Accessibility: Skip Link */
+.skip-link {
+  position: absolute;
+  top: -9999px;
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Accessibility: Screen Reader Only */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Keyboard focus indicators */
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+/* Typography & Headings */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.75em;
+  margin-bottom: 0.5em;
+  color: var(--fg);
+}
+h1 { font-size: 1.85rem; margin-top: 0.5em; }
+h2 { font-size: 1.45rem; }
+h3 { font-size: 1.2rem; }
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.page-header img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+/* Code & Pre (Zero-JS minimal style) */
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+}
+
+/* Tables */
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+/* Blockquote */
+blockquote {
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* Media & Print */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="https://hocbigg.github.io/CONTRIBUTING.html">Contributing</a></li>
+      <li><a href="https://github.com/hocbigg/" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <article>
+<header class="page-header">
+  <img src="/images/logo.png" alt="Hocbigg logo" width="120" height="120">
+  <h1>Hocbigg</h1>
+</header>
+<p>Welcome to Hocbigg!</p>
+<p>Hocbigg is a <a href="https://en.wikipedia.org/wiki/501(c)(3)_organization" target="_blank" rel="noopener noreferrer">501c3 non-profit</a> whose mission is to empower learners to master college curricula through free resources (Inspired by <a href="https://ossu.dev/" target="_blank" rel="noopener noreferrer">OSSU</a>, <a href="https://en.wikipedia.org/wiki/Outline_of_academic_disciplines" target="_blank" rel="noopener noreferrer">Outline of academic disciplines</a> and many other free and open source curricula on the Internet).</p>
+<p>Join our Discord server (for discussions around this and other curricula): </p>
+<p><a href="https://discord.gg/KHqAv4Nvm5" target="_blank" rel="noopener noreferrer"><img alt="discord link" src="assets/discord.png"></a></p>
+<!-- TOC -->
+
+<ul>
+<li><a href="#humanities">Humanities</a><ul>
+<li><a href="#history">History</a></li>
+<li><a href="#philosophy">Philosophy</a></li>
+<li><a href="#literature-and-classics">Literature and Classics</a></li>
+<li><a href="#religious-and-cultural-studies">Religious and Cultural Studies</a></li>
+</ul>
+</li>
+<li><a href="#languages-and-linguistics">Languages and Linguistics</a><ul>
+<li><a href="#european-languages">European Languages</a></li>
+<li><a href="#middle-eastern-and-south-asian-languages">Middle Eastern and South Asian Languages</a></li>
+<li><a href="#east-asian-languages">East Asian Languages</a></li>
+<li><a href="#southeast-asian-and-indigenous-languages">Southeast Asian and Indigenous Languages</a></li>
+<li><a href="#ancient-languages">Ancient Languages</a></li>
+<li><a href="#linguistics-and-related">Linguistics and Related</a></li>
+</ul>
+</li>
+<li><a href="#arts-and-design">Arts and Design</a></li>
+<li><a href="#social-sciences">Social Sciences</a></li>
+<li><a href="#business-and-management">Business and Management</a></li>
+<li><a href="#law-and-public-policy">Law and Public Policy</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#communication-and-media">Communication and Media</a></li>
+<li><a href="#area-ethnic-and-cultural-studies">Area, Ethnic and Cultural Studies</a></li>
+<li><a href="#natural-sciences">Natural Sciences</a></li>
+<li><a href="#engineering-and-technology">Engineering and Technology</a></li>
+<li><a href="#mathematics-and-computer-science">Mathematics and Computer Science</a><ul>
+<li><a href="#mathematics">Mathematics</a></li>
+<li><a href="#computer-and-information-sciences">Computer and Information Sciences</a></li>
+</ul>
+</li>
+<li><a href="#other">Other</a></li>
+</ul>
+<!-- /TOC -->
+
+<h2 id="humanities">Humanities</h2>
+<h3 id="history">History</h3>
+<ul>
+<li><a href="/history/">History</a></li>
+<li><a href="/ancient-history/">Ancient History</a></li>
+<li><a href="/world-history/">World History</a></li>
+<li><a href="/medieval-history/">Medieval History</a></li>
+<li><a href="/modern-history/">Modern History</a></li>
+<li><a href="/cultural-history/">Cultural History</a></li>
+</ul>
+<h3 id="philosophy">Philosophy</h3>
+<ul>
+<li>Philosophy:<ul>
+<li><a href="/philosophy/">Philosophy (Hocbigg)</a></li>
+<li><a href="https://www.susanrigetti.com/philosophy" target="_blank" rel="noopener noreferrer">So You Want to Study Philosophy… (Susan Rigetti)</a></li>
+</ul>
+</li>
+<li><a href="/metaphysics/">Metaphysics</a></li>
+<li><a href="/moral-philosophy/">Moral Philosophy (Ethics)</a></li>
+<li><a href="/epistemology/">Epistemology</a></li>
+<li><a href="/logic/">Logic</a></li>
+<li><a href="/chinese-philosophy/">Chinese Philosophy</a></li>
+<li><a href="/indian-philosophy/">Indian Philosophy</a></li>
+</ul>
+<h3 id="literature-and-classics">Literature and Classics</h3>
+<ul>
+<li><a href="/literature/">Literature</a></li>
+<li><a href="/english-studies/">English Studies</a></li>
+<li><a href="/classics/">Classics</a> </li>
+</ul>
+<h3 id="religious-and-cultural-studies">Religious and Cultural Studies</h3>
+<ul>
+<li>Theology - <a href="https://www.gospelsimplicity.com/blog/self-study-theology-degree-reading-plan" target="_blank" rel="noopener noreferrer">Self-study theology degree reading plan</a></li>
+<li>Women's Studies</li>
+</ul>
+<h2 id="languages-and-linguistics">Languages and Linguistics</h2>
+<h3 id="european-languages">European Languages</h3>
+<ul>
+<li>English<ul>
+<li><a href="https://www.antimoon.com/" target="_blank" rel="noopener noreferrer">Antimoon</a></li>
+<li><a href="https://refold.la/how-to-learn-english/" target="_blank" rel="noopener noreferrer">English (Refold)</a></li>
+</ul>
+</li>
+<li>French - <a href="https://refold.la/how-to-learn-french/" target="_blank" rel="noopener noreferrer">French (Refold)</a></li>
+<li>German - <a href="https://refold.la/how-to-learn-german/" target="_blank" rel="noopener noreferrer">German (Refold)</a></li>
+<li>Spanish - <a href="https://refold.la/how-to-learn-spanish/" target="_blank" rel="noopener noreferrer">Spanish (Refold)</a></li>
+<li>Portuguese - <a href="https://refold.la/how-to-learn-portuguese/" target="_blank" rel="noopener noreferrer">Portuguese (Refold)</a></li>
+<li>Italian - <a href="https://refold.la/how-to-learn-italian/" target="_blank" rel="noopener noreferrer">Italian (Refold)</a></li>
+<li>Russian - <a href="https://refold.la/how-to-learn-russian/" target="_blank" rel="noopener noreferrer">Russian (Refold)</a></li>
+</ul>
+<h3 id="middle-eastern-and-south-asian-languages">Middle Eastern and South Asian Languages</h3>
+<ul>
+<li>Arabic - <a href="https://refold.la/how-to-learn-arabic/" target="_blank" rel="noopener noreferrer">Arabic (Refold)</a></li>
+<li>Persian</li>
+<li>Hebrew - <a href="https://refold.la/how-to-learn-hebrew/" target="_blank" rel="noopener noreferrer">Hebrew (Refold)</a></li>
+</ul>
+<h3 id="east-asian-languages">East Asian Languages</h3>
+<ul>
+<li>Chinese - <a href="https://refold.la/how-to-learn-mandarin/" target="_blank" rel="noopener noreferrer">Mandarin (Refold)</a>, <a href="https://refold.la/how-to-learn-cantonese/" target="_blank" rel="noopener noreferrer">Cantonese (Refold)</a></li>
+<li>Japanese:<ul>
+<li><a href="http://learnjapanese.moe/" target="_blank" rel="noopener noreferrer">TheMoeWay</a></li>
+<li><a href="https://donkuri.github.io/learn-japanese/" target="_blank" rel="noopener noreferrer">Donkuri</a></li>
+<li><a href="https://tatsumoto-ren.github.io/" target="_blank" rel="noopener noreferrer">Tatsumoto (AJATT)</a></li>
+</ul>
+</li>
+<li>Korean - <a href="https://refold.la/how-to-learn-korean" target="_blank" rel="noopener noreferrer">Korean (Refold)</a></li>
+</ul>
+<h3 id="southeast-asian-and-indigenous-languages">Southeast Asian and Indigenous Languages</h3>
+<ul>
+<li>Vietnamese - <a href="https://daihocmo.github.io/learn-vietnamese/" target="_blank" rel="noopener noreferrer">Vietnamese (Khu học mở)</a></li>
+<li>Thai - <a href="https://refold.la/how-to-learn-thai/" target="_blank" rel="noopener noreferrer">Thai (Refold)</a></li>
+<li>Indonesian - <a href="https://refold.la/how-to-learn-indonesian/" target="_blank" rel="noopener noreferrer">Indonesian (Refold)</a></li>
+<li>Tagalog - <a href="https://refold.la/how-to-learn-tagalog/" target="_blank" rel="noopener noreferrer">Tagalog (Refold)</a></li>
+</ul>
+<h3 id="ancient-languages">Ancient Languages</h3>
+<ul>
+<li><a href="/latin/">Latin</a></li>
+<li><a href="/ancient-greek/">Ancient Greek</a></li>
+<li><a href="/classical-chinese/">Classical Chinese</a></li>
+</ul>
+<h3 id="linguistics-and-related">Linguistics and Related</h3>
+<ul>
+<li>Linguistics - <a href="https://allthingslinguistic.com/post/164874346205/how-to-teach-yourself-linguistics-online-for-free" target="_blank" rel="noopener noreferrer">How to teach yourself linguistics online for free - All Things Linguistic</a></li>
+<li>Sign Language</li>
+</ul>
+<h2 id="arts-and-design">Arts and Design</h2>
+<ul>
+<li>Fine Arts - <a href="https://louisestigell.com/blogs/blog/diy-art-school-a-complete-guide-to-learning-art-on-your-own" target="_blank" rel="noopener noreferrer">DIY Art School - A complete guide to learning art on your own</a></li>
+<li><a href="/drawing/">Visual Arts / Drawing / Painting</a></li>
+<li><a href="/creative-writing/">Creative Writing</a></li>
+<li>Music</li>
+<li>Film and Media Production:<ul>
+<li><a href="https://nofilmschool.com/film-school-curriculum" target="_blank" rel="noopener noreferrer">Skip Film School and Learn the Basics</a></li>
+<li><a href="https://wolfcrow.com/a-complete-roadmap-to-learning-cinematography/" target="_blank" rel="noopener noreferrer">A Complete Roadmap to Learning Cinematography - Wolfcrow</a></li>
+</ul>
+</li>
+<li>Photography:<ul>
+<li><a href="https://www.thefocalpointhub.com/photoclass-2026" target="_blank" rel="noopener noreferrer">The Focal Point Photoclass</a></li>
+<li><a href="https://johnmakphotography.com/learn/" target="_blank" rel="noopener noreferrer">Learn to Shoot Better</a></li>
+</ul>
+</li>
+<li>Architecture</li>
+<li>Graphic Design - <a href="https://www.coursera.org/specializations/graphic-design" target="_blank" rel="noopener noreferrer">Graphic Design Specialization - Coursera</a></li>
+</ul>
+<h2 id="social-sciences">Social Sciences</h2>
+<ul>
+<li><a href="/anthropology/">Anthropology</a></li>
+<li><a href="/sociology/">Sociology</a></li>
+<li><a href="/political-science/">Political Science</a></li>
+<li><a href="/psychology/">Psychology</a></li>
+<li><a href="/human-geography/">Human Geography</a></li>
+<li><a href="/cultural-geography/">Cultural Geography</a></li>
+<li><a href="/political-geography/">Political Geography</a></li>
+<li>Criminology / Criminal Justice - <a href="https://www.coursesidekick.com/law/study-guides/atd-bmcc-criminaljustice" target="_blank" rel="noopener noreferrer">Criminal Justice - Course Sidekick</a></li>
+<li><a href="/social-work/">Social Work</a></li>
+</ul>
+<h2 id="business-and-management">Business and Management</h2>
+<ul>
+<li>Business Administration:<ul>
+<li><a href="https://hampuswessman.se/2022/07/self-study-mba-reading-list/" target="_blank" rel="noopener noreferrer">Self-Study MBA Reading List - Hampus Wessman</a></li>
+<li><a href="https://www.springboard.com/resources/learning-paths/mba/" target="_blank" rel="noopener noreferrer">Springboard - MBA Essentials</a></li>
+<li><a href="https://ocw.mit.edu/collections/sloan-mba-first-semester-core" target="_blank" rel="noopener noreferrer">MBA First-Semester Core – MIT Sloan School of Management</a></li>
+<li><a href="https://roadmap.sh/r/mba-self-taught" target="_blank" rel="noopener noreferrer">MBA Online - Roadmap.sh</a></li>
+</ul>
+</li>
+<li>Accounting - <a href="https://www.accountingcoach.com/" target="_blank" rel="noopener noreferrer">AccountingCoach</a></li>
+<li>Marketing - <a href="https://www.coursera.org/resources/digital-marketing-learning-roadmap" target="_blank" rel="noopener noreferrer">Digital Marketing Learning Roadmap - Coursera</a></li>
+<li><a href="/project-management/">Project Management (Hocbigg)</a> - <a href="https://roadmap.sh/r/project-management-crez9" target="_blank" rel="noopener noreferrer">Project Management - Roadmap.sh</a></li>
+<li><a href="/nonprofit-management/">Nonprofit Management</a></li>
+</ul>
+<h2 id="law-and-public-policy">Law and Public Policy</h2>
+<ul>
+<li><a href="/public-administration/">Public Administration</a></li>
+<li>Public Policy - <a href="https://www.khanacademy.org/humanities/us-government-and-civics" target="_blank" rel="noopener noreferrer">U.S. Government and Civics + Policy Process – Khan Academy</a></li>
+</ul>
+<h2 id="education">Education</h2>
+<ul>
+<li><a href="/education/">Education (General)</a></li>
+<li>Early Childhood Education</li>
+<li>Elementary / Secondary Education</li>
+<li><a href="/special-education/">Special Education</a></li>
+</ul>
+<h2 id="communication-and-media">Communication and Media</h2>
+<ul>
+<li><a href="/communication-studies/">Communication studies</a></li>
+<li><a href="/journalism/">Journalism</a></li>
+<li><a href="/rhetoric/">Rhetoric</a></li>
+<li><a href="/film-and-media-studies/">Film and Media Studies</a></li>
+<li>Public Relations</li>
+</ul>
+<h2 id="area-ethnic-and-cultural-studies">Area, Ethnic and Cultural Studies</h2>
+<ul>
+<li><a href="/asian-studies/">Asian Studies</a></li>
+<li><a href="/african-studies/">African Studies</a></li>
+<li><a href="/european-studies/">European Studies</a></li>
+<li><a href="/latin-american-studies/">Latin American Studies</a></li>
+<li>Middle Eastern Studies</li>
+<li>American Studies</li>
+<li>Ethnic and Cultural Studies</li>
+<li>Gender and Sexuality Studies</li>
+<li><a href="/folklore-studies/">Folklore Studies</a></li>
+<li><a href="heritage-studies/">Heritage Studies</a></li>
+</ul>
+<h2 id="natural-sciences">Natural Sciences</h2>
+<ul>
+<li>Biology - <a href="https://explorebiology.org/" target="_blank" rel="noopener noreferrer">Explorer's Guide to Biology (XBio)</a></li>
+<li>Bioinformatics - <a href="https://github.com/ossu/bioinformatics" target="_blank" rel="noopener noreferrer">Bioinformatics (OSSU)</a></li>
+<li>Chemistry - <a href="https://ocw.uci.edu/collections/open_chemistry.html" target="_blank" rel="noopener noreferrer">Open Chemistry (OpenChem) – UC Irvine (UCI Open)</a></li>
+<li>Physics<ul>
+<li><a href="https://www.susanrigetti.com/physics" target="_blank" rel="noopener noreferrer">So You Want to Learn Physics… - SECOND EDITION (Susan Rigetti)</a></li>
+<li><a href="https://www.goodtheorist.science/" target="_blank" rel="noopener noreferrer">How to Become a GOOD Theoretical Physicist – Gerard 't Hooft</a></li>
+<li><a href="https://github.com/Bassamejlaoui/Open-Source-Physics-Curicculum" target="_blank" rel="noopener noreferrer">Open-Source Physics Curriculum</a></li>
+</ul>
+</li>
+<li>Earth Sciences</li>
+<li>Environmental Science</li>
+<li>Agriculture<ul>
+<li><a href="https://ofrf.org/beginning-farmer-training-program/" target="_blank" rel="noopener noreferrer">Beginning Farmer Training Program - OFRF</a></li>
+<li><a href="https://www.beginningfarmercurriculum.org/" target="_blank" rel="noopener noreferrer">Beginning Farmer Curriculum</a></li>
+</ul>
+</li>
+<li>Nutrition</li>
+</ul>
+<h2 id="engineering-and-technology">Engineering and Technology</h2>
+<ul>
+<li>System Engineer - <a href="https://roadmap.sh/r/system-engineer" target="_blank" rel="noopener noreferrer">System Engineer - Roadmap.sh</a></li>
+<li>BioEngineering - <a href="https://roadmap.sh/r/biological-and-bioprocess-engineering" target="_blank" rel="noopener noreferrer">BioEngineering and Bioinformatics Pathway - Roadmap.sh</a></li>
+<li>Mechanical Engineer - <a href="https://roadmap.sh/r/mechanical-engineer-0yi5s" target="_blank" rel="noopener noreferrer">Mechanical Engineer - Roadmap.sh</a></li>
+<li>BioMedical Engineering - <a href="https://roadmap.sh/r/biomedical-engineering-u9o35" target="_blank" rel="noopener noreferrer">BioMedical Engineering - Roadmap.sh</a></li>
+<li>ML Engineer - <a href="https://roadmap.sh/r/ml-engineer-3dqvu" target="_blank" rel="noopener noreferrer">ML Engineer - Roadmap.sh</a></li>
+</ul>
+<h2 id="mathematics-and-computer-science">Mathematics and Computer Science</h2>
+<p><strong>Note</strong>: Hocbigg primarily focuses on anything (kinda broad ik) except math and computer science (a.k.a Formal science) so this section is meant for external roadmaps/curricula only.</p>
+<h3 id="mathematics">Mathematics</h3>
+<ul>
+<li>Pre-college Mathematics - <a href="https://ossu.dev/precollege-math/" target="_blank" rel="noopener noreferrer">Pre-college Mathematics - OSSU</a></li>
+<li>Mathematics<ul>
+<li><a href="https://www.susanrigetti.com/math" target="_blank" rel="noopener noreferrer">So You Want to Study Mathematics… (Susan Rigetti)</a></li>
+<li><a href="https://math.ossu.dev/" target="_blank" rel="noopener noreferrer">Mathematics - OSSU</a></li>
+</ul>
+</li>
+<li>Statistics - <a href="https://www.khanacademy.org/math/statistics-probability" target="_blank" rel="noopener noreferrer">Statistics and Probability – Khan Academy</a></li>
+</ul>
+<h3 id="computer-and-information-sciences">Computer and Information Sciences</h3>
+<ul>
+<li>Computer Science:<ul>
+<li><a href="https://teachyourselfcs.com/" target="_blank" rel="noopener noreferrer">Teach Yourself Computer Science</a></li>
+<li><a href="https://cs.ossu.dev/" target="_blank" rel="noopener noreferrer">Computer Science (OSSU)</a></li>
+</ul>
+</li>
+<li>Data Science - <a href="https://ds.ossu.dev/" target="_blank" rel="noopener noreferrer">Data Science (OSSU)</a></li>
+<li>Cybersecurity - <a href="https://brootware.github.io/awesome-cyber-security-university/" target="_blank" rel="noopener noreferrer">Cyber Security (Awesome Cyber Security University)</a></li>
+</ul>
+<h2 id="other">Other</h2>
+<ul>
+<li><a href="/library-and-information-studies/">Library and Information Studies</a></li>
+<li><a href="/museum-studies/">Museum Studies</a></li>
+</ul>
+    </article>
+  </main>
+
+</body>
+</html>
