@@ -4,47 +4,48 @@ author: hocbigg
 description: Empowering learners to master college curricula through free resources.
 ---
 
-Welcome to Hocbigg!
+**Hocbigg** is an open-source initiative dedicated to helping self-directed learners explore structured, high-quality knowledge through free resources. (Inspired by [OSSU](https://ossu.dev/), [Open Culture](https://www.openculture.com/), [Open Syllabus](https://www.opensyllabus.org/), and the open education community).
 
-Hocbigg is a [501c3 non-profit](<https://en.wikipedia.org/wiki/501(c)(3)_organization>) whose mission is to empower learners to master college curricula through free resources (Inspired by [OSSU](https://ossu.dev/), [Open Culture](https://www.openculture.com/), [Open Syllabus](https://www.opensyllabus.org/) and many other free and open source curricula on the Internet).
-
-Join our Discord server (for discussions around this and other curricula): 
-    
-[![discord link](assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
-
-<!-- TOC -->
-
-- [Humanities](#humanities)
-    - [History](#history)
-    - [Philosophy](#philosophy)
-    - [Literature and Classics](#literature-and-classics)
-    - [Religious and Cultural Studies](#religious-and-cultural-studies)
-- [Languages and Linguistics](#languages-and-linguistics)
-    - [European Languages](#european-languages)
-    - [Middle Eastern and South Asian Languages](#middle-eastern-and-south-asian-languages)
-    - [East Asian Languages](#east-asian-languages)
-    - [Southeast Asian and Indigenous Languages](#southeast-asian-and-indigenous-languages)
-    - [Ancient Languages](#ancient-languages)
-    - [Linguistics and Related](#linguistics-and-related)
-- [Arts and Design](#arts-and-design)
-- [Social Sciences](#social-sciences)
-- [Business and Management](#business-and-management)
-- [Law and Public Policy](#law-and-public-policy)
+- [Arts & Humanities](#arts-humanities)
+    - [Humanities](#humanities)
+        - [History](#history)
+        - [Philosophy](#philosophy)
+        - [Literature and Classics](#literature-and-classics)
+        - [Religious Studies](#religious-studies)
+    - [Languages & Linguistics](#languages-linguistics)
+        - [European Languages](#european-languages)
+        - [Middle Eastern and South Asian Languages](#middle-eastern-and-south-asian-languages)
+        - [East Asian Languages](#east-asian-languages)
+        - [Southeast Asian Languages](#southeast-asian-languages)
+        - [Ancient Languages](#ancient-languages)
+        - [Linguistics and Related](#linguistics-and-related)
+    - [Arts & Design](#arts-design)
+- [Social Sciences, Journalism & Information](#social-sciences-journalism-information)
+    - [Social & Behavioural Sciences](#social-behavioural-sciences)
+        - [Economics](#economics)
+        - [Politics and International Affairs](#politics-and-international-affairs)
+    - [Area, Ethnic & Cultural Studies](#area-ethnic-cultural-studies)
+    - [Journalism, Communication & Information](#journalism-communication-information)
+- [Business, Administration & Law](#business-administration-law)
+    - [Business & Administration](#business-administration)
+    - [Law](#law)
 - [Education](#education)
-- [Communication and Media](#communication-and-media)
-- [Area, Ethnic and Cultural Studies](#area-ethnic-and-cultural-studies)
-- [Natural Sciences](#natural-sciences)
-- [Engineering and Technology](#engineering-and-technology)
-- [Mathematics and Computer Science](#mathematics-and-computer-science)
-    - [Mathematics](#mathematics)
-    - [Computer and Information Sciences](#computer-and-information-sciences)
-- [Other](#other)
+- [Natural Sciences, Mathematics & Statistics](#natural-sciences-mathematics-statistics)
+    - [Biological Sciences](#biological-sciences)
+    - [Environment](#environment)
+    - [Physical Sciences](#physical-sciences)
+    - [Mathematics & Statistics](#mathematics-statistics)
+- [Information & Communication Technologies (ICT)](#information-communication-technologies-ict)
+    - [Software & Applications](#software-applications)
+    - [Systems & Networks](#systems-networks)
+- [Engineering, Manufacturing & Construction](#engineering-manufacturing-construction)
+- [Health & Welfare](#health-welfare)
 
-<!-- /TOC -->
+## Arts & Humanities <!-- ISCED-F 02 -->
 
-## Humanities
+### Humanities
 
-### History
+#### History
 
 - [History](/history/)
 - [Ancient History](/ancient-history/)
@@ -52,194 +53,216 @@ Join our Discord server (for discussions around this and other curricula):
 - [Medieval History](/medieval-history/)
 - [Modern History](/modern-history/)
 - [Cultural History](/cultural-history/)
+- [Art History](/art-history/)
+- [Intellectual History](/intellectual-history/)
+- [Public History](/public-history/)
+- [Military History](/military-history/)
+- [Historiography](/historiography/)
 
-### Philosophy
+#### Philosophy
 
-- Philosophy:
-    - [Philosophy (Hocbigg)](/philosophy/)
-    - [So You Want to Study Philosophy… (Susan Rigetti)](https://www.susanrigetti.com/philosophy)
+- [Philosophy](/philosophy/)
 - [Metaphysics](/metaphysics/)
 - [Moral Philosophy (Ethics)](/moral-philosophy/)
+- [Applied Ethics](/applied-ethics/)
 - [Epistemology](/epistemology/)
 - [Logic](/logic/)
+- [Political Philosophy](/political-philosophy/)
+- [Statecraft and Political Philosophy](/statecraft-and-political-philosophy/)
+- [Aesthetics](/aesthetics/) - Philosophy of Art
 - [Chinese Philosophy](/chinese-philosophy/)
 - [Indian Philosophy](/indian-philosophy/)
 
-### Literature and Classics
+#### Literature and Classics
 
 - [Literature](/literature/)
+- [Comparative Literature](/comparative-literature/)
 - [English Studies](/english-studies/)
-- [Classics](/classics/) 
+- [Classics](/classics/)
 
-### Religious and Cultural Studies
+#### Religious Studies
 
-- Theology - [Self-study theology degree reading plan](https://www.gospelsimplicity.com/blog/self-study-theology-degree-reading-plan)
-- Women's Studies
+- [Religious Studies](/religious-studies/)
+- [Theology](/theology/)
+- [Buddhist Studies](/buddhist-studies/)
+- [Islamic Studies](/islamic-studies/)
+- [Jewish Studies](/jewish-studies/)
+- [Comparative Mythology](/comparative-mythology/)
 
-## Languages and Linguistics
+### Languages & Linguistics
 
-### European Languages
+#### European Languages
 
-- English
-    - [Antimoon](https://www.antimoon.com/)
-    - [English (Refold)](https://refold.la/how-to-learn-english/)
-- French - [French (Refold)](https://refold.la/how-to-learn-french/)
-- German - [German (Refold)](https://refold.la/how-to-learn-german/)
-- Spanish - [Spanish (Refold)](https://refold.la/how-to-learn-spanish/)
-- Portuguese - [Portuguese (Refold)](https://refold.la/how-to-learn-portuguese/)
-- Italian - [Italian (Refold)](https://refold.la/how-to-learn-italian/)
-- Russian - [Russian (Refold)](https://refold.la/how-to-learn-russian/)
+- [English](/c/english/)
+- [French](/c/french/)
+- [German](/c/german/)
+- [Spanish](/c/spanish/)
+- [Portuguese](/c/portuguese/)
+- [Italian](/c/italian/)
+- [Russian](/c/russian/)
 
-### Middle Eastern and South Asian Languages
+#### Middle Eastern and South Asian Languages
 
-- Arabic - [Arabic (Refold)](https://refold.la/how-to-learn-arabic/)
-- Persian
-- Hebrew - [Hebrew (Refold)](https://refold.la/how-to-learn-hebrew/)
+- [Arabic](/c/arabic/)
+- [Persian](/c/persian/)
+- [Hebrew](/c/hebrew/)
 
-### East Asian Languages
+#### East Asian Languages
 
-- Chinese - [Mandarin (Refold)](https://refold.la/how-to-learn-mandarin/), [Cantonese (Refold)](https://refold.la/how-to-learn-cantonese/)
-- Japanese:
-    - [TheMoeWay](http://learnjapanese.moe/)
-    - [Donkuri](https://donkuri.github.io/learn-japanese/)
-    - [Tatsumoto (AJATT)](https://tatsumoto-ren.github.io/)
-- Korean - [Korean (Refold)](https://refold.la/how-to-learn-korean)
+- [Chinese](/c/chinese/)
+- [Japanese](/c/japanese/)
+- [Korean](/c/korean/)
 
-### Southeast Asian and Indigenous Languages
+#### Southeast Asian Languages
 
-- Vietnamese - [Vietnamese (Khu học mở)](https://daihocmo.github.io/learn-vietnamese/)
-- Thai - [Thai (Refold)](https://refold.la/how-to-learn-thai/)
-- Indonesian - [Indonesian (Refold)](https://refold.la/how-to-learn-indonesian/)
-- Tagalog - [Tagalog (Refold)](https://refold.la/how-to-learn-tagalog/)
+- [Vietnamese](/c/vietnamese/)
+- [Thai](/c/thai/)
+- [Indonesian](/c/indonesian/)
+- [Tagalog](/c/tagalog/)
 
-### Ancient Languages
+#### Ancient Languages
 
 - [Latin](/latin/)
 - [Ancient Greek](/ancient-greek/)
 - [Classical Chinese](/classical-chinese/)
 
-### Linguistics and Related
+#### Linguistics and Related
 
-- Linguistics - [How to teach yourself linguistics online for free - All Things Linguistic](https://allthingslinguistic.com/post/164874346205/how-to-teach-yourself-linguistics-online-for-free)
-- Sign Language
+- [General Linguistics](/linguistics/)
+- [Applied Linguistics](/applied-linguistics/)
+- [Philology](/philology/)
+- [Translation and Interpretation Studies](/translation-and-interpretation-studies/)
+- [Historical Linguistics](/historical-linguistics/)
 
-## Arts and Design
+### Arts & Design
 
-- Fine Arts - [DIY Art School - A complete guide to learning art on your own](https://louisestigell.com/blogs/blog/diy-art-school-a-complete-guide-to-learning-art-on-your-own)
-- [Visual Arts / Drawing / Painting](/drawing/)
+- [Visual Arts](/visual-arts/)
+- [Drawing and Painting](/drawing/)
 - [Creative Writing](/creative-writing/)
-- Music
-- Film and Media Production:
-    - [Skip Film School and Learn the Basics](https://nofilmschool.com/film-school-curriculum)
-    - [A Complete Roadmap to Learning Cinematography - Wolfcrow](https://wolfcrow.com/a-complete-roadmap-to-learning-cinematography/)
-- Photography:
-    - [The Focal Point Photoclass](https://www.thefocalpointhub.com/photoclass-2026)
-    - [Learn to Shoot Better](https://johnmakphotography.com/learn/)
-- Architecture
-- Graphic Design - [Graphic Design Specialization - Coursera](https://www.coursera.org/specializations/graphic-design)
+- [Music](/music/)
+- [Theatre and Drama Studies](/theatre-and-drama-studies/)
+- [Dance and Choreography](/dance-and-choreography/)
+- [Photography](/photography/)
+- [Architecture](/architecture/)
+- [Museum Studies](/museum-studies/)
+- [Cultural Heritage Preservation](/cultural-heritage-preservation/)
 
-## Social Sciences
+## Social Sciences, Journalism & Information <!-- ISCED-F 03 -->
+
+### Social & Behavioural Sciences
 
 - [Anthropology](/anthropology/)
 - [Sociology](/sociology/)
-- [Political Science](/political-science/)
 - [Psychology](/psychology/)
 - [Human Geography](/human-geography/)
 - [Cultural Geography](/cultural-geography/)
 - [Political Geography](/political-geography/)
-- Criminology / Criminal Justice - [Criminal Justice - Course Sidekick](https://www.coursesidekick.com/law/study-guides/atd-bmcc-criminaljustice)
+- [Archaeology](/archaeology/)
+- [Urban Studies and Planning](/urban-studies-and-planning/)
+- [Criminology](/criminology/)
 - [Social Work](/social-work/)
 
-## Business and Management
+#### Economics
 
-- Business Administration:
-    - [Self-Study MBA Reading List - Hampus Wessman](https://hampuswessman.se/2022/07/self-study-mba-reading-list/)
-    - [Springboard - MBA Essentials](https://www.springboard.com/resources/learning-paths/mba/)
-    - [MBA First-Semester Core – MIT Sloan School of Management](https://ocw.mit.edu/collections/sloan-mba-first-semester-core)
-    - [MBA Online - Roadmap.sh](https://roadmap.sh/r/mba-self-taught)
-- Accounting - [AccountingCoach](https://www.accountingcoach.com/)
-- Marketing - [Digital Marketing Learning Roadmap - Coursera](https://www.coursera.org/resources/digital-marketing-learning-roadmap)
-- [Project Management (Hocbigg)](/project-management/) - [Project Management - Roadmap.sh](https://roadmap.sh/r/project-management-crez9)
-- [Nonprofit Management](/nonprofit-management/)
+- [Economics (General)](/economics/)
+- [Behavioral Economics](/behavioral-economics/)
+- [Political Economy](/political-economy/)
 
-## Law and Public Policy
+#### Politics and International Affairs
 
-- [Public Administration](/public-administration/)
-- Public Policy - [U.S. Government and Civics + Policy Process – Khan Academy](https://www.khanacademy.org/humanities/us-government-and-civics)
+- [Political Science](/political-science/)
+- [International Relations](/international-relations/)
 
-## Education
-
-- [Education (General)](/education/)
-- Early Childhood Education
-- Elementary / Secondary Education
-- [Special Education](/special-education/)
-
-## Communication and Media
-
-- [Communication studies](/communication-studies/)
-- [Journalism](/journalism/)
-- [Rhetoric](/rhetoric/)
-- [Film and Media Studies](/film-and-media-studies/)
-- Public Relations
-
-## Area, Ethnic and Cultural Studies
+### Area, Ethnic & Cultural Studies
 
 - [Asian Studies](/asian-studies/)
 - [African Studies](/african-studies/)
 - [European Studies](/european-studies/)
+- [American Studies](/american-studies/)
 - [Latin American Studies](/latin-american-studies/)
-- Middle Eastern Studies
-- American Studies
-- Ethnic and Cultural Studies
-- Gender and Sexuality Studies
+- [Indigenous Studies](/indigenous-studies/)
+- [Ethnic and Cultural Studies](/ethnic-and-cultural-studies/)
+- [Critical Race Studies](/critical-race-studies/)
+- [Women's Studies](/women-studies/)
+- [Gender and Sexuality Studies](/gender-and-sexuality-studies/)
+- [Postcolonial Studies](/postcolonial-studies/)
+- [Disability Studies](/disability-studies/)
 - [Folklore Studies](/folklore-studies/)
-- [Heritage Studies](heritage-studies/)
+- [Heritage Studies](/heritage-studies/)
 
-## Natural Sciences
+### Journalism, Communication & Information
 
-- Biology - [Explorer's Guide to Biology (XBio)](https://explorebiology.org/)
-- Bioinformatics - [Bioinformatics (OSSU)](https://github.com/ossu/bioinformatics)
-- Chemistry - [Open Chemistry (OpenChem) – UC Irvine (UCI Open)](https://ocw.uci.edu/collections/open_chemistry.html)
-- Physics
-    - [So You Want to Learn Physics… - SECOND EDITION (Susan Rigetti)](https://www.susanrigetti.com/physics)
-    - [How to Become a GOOD Theoretical Physicist – Gerard 't Hooft](https://www.goodtheorist.science/)
-    - [Open-Source Physics Curriculum](https://github.com/Bassamejlaoui/Open-Source-Physics-Curicculum)
-- Earth Sciences
-- Environmental Science
-- Agriculture
-    - [Beginning Farmer Training Program - OFRF](https://ofrf.org/beginning-farmer-training-program/)
-    - [Beginning Farmer Curriculum](https://www.beginningfarmercurriculum.org/)
-- Nutrition
-
-## Engineering and Technology
-
-- System Engineer - [System Engineer - Roadmap.sh](https://roadmap.sh/r/system-engineer)
-- BioEngineering - [BioEngineering and Bioinformatics Pathway - Roadmap.sh](https://roadmap.sh/r/biological-and-bioprocess-engineering)
-- Mechanical Engineer - [Mechanical Engineer - Roadmap.sh](https://roadmap.sh/r/mechanical-engineer-0yi5s)
-- BioMedical Engineering - [BioMedical Engineering - Roadmap.sh](https://roadmap.sh/r/biomedical-engineering-u9o35)
-- ML Engineer - [ML Engineer - Roadmap.sh](https://roadmap.sh/r/ml-engineer-3dqvu)
-
-## Mathematics and Computer Science
-
-**Note**: Hocbigg primarily focuses on anything (kinda broad ik) except math and computer science (a.k.a Formal science) so this section is meant for external roadmaps/curricula only.
-
-### Mathematics
-
-- Pre-college Mathematics - [Pre-college Mathematics - OSSU](https://ossu.dev/precollege-math/)
-- Mathematics
-    - [So You Want to Study Mathematics… (Susan Rigetti)](https://www.susanrigetti.com/math)
-    - [Mathematics - OSSU](https://math.ossu.dev/)
-- Statistics - [Statistics and Probability – Khan Academy](https://www.khanacademy.org/math/statistics-probability)
-
-### Computer and Information Sciences
-
-- Computer Science:
-    - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-    - [Computer Science (OSSU)](https://cs.ossu.dev/)
-- Data Science - [Data Science (OSSU)](https://ds.ossu.dev/)
-- Cybersecurity - [Cyber Security (Awesome Cyber Security University)](https://brootware.github.io/awesome-cyber-security-university/)
-
-## Other
-
+- [Communication Studies](/communication-studies/)
+- [Journalism](/journalism/)
+- [Public Relations](/public-relations/)
+- [Rhetoric](/rhetoric/)
+- [Film and Media Studies](/film-and-media-studies/)
 - [Library and Information Studies](/library-and-information-studies/)
-- [Museum Studies](/museum-studies/)
+
+## Business, Administration & Law <!-- ISCED-F 04 -->
+
+### Business & Administration
+
+- [Business Administration](/business-administration/)
+- [Accounting](/accounting/)
+- [Organizational Behavior](/organizational-behavior/)
+- [Project Management (Hocbigg)](/project-management/)
+- [Nonprofit Management](/nonprofit-management/)
+- [Public Administration](/public-administration/)
+
+### Law
+
+- [Jurisprudence and Legal Theory](/jurisprudence-and-legal-theory/)
+- [Comparative Law](/comparative-law/)
+
+## Education <!-- ISCED-F 01 -->
+
+- [Education (General)](/education/)
+- [Educational Psychology](/educational-psychology/)
+- [Special Education](/special-education/)
+
+## Natural Sciences, Mathematics & Statistics <!-- ISCED-F 05 -->
+
+### Biological Sciences
+
+- [Biology](/biology/)
+- [Bioinformatics](/bioinformatics/)
+
+### Environment
+
+- [Earth Sciences](/earth-sciences/)
+- [Environmental Science](/environmental-science/)
+- [Agriculture](/agriculture/)
+
+### Physical Sciences
+
+- [Chemistry](/chemistry/)
+- [Physics](/c/physics/)
+
+### Mathematics & Statistics
+
+- [Mathematics](/c/math/)
+- [Statistics](/c/statistics/)
+
+## Information & Communication Technologies (ICT) <!-- ISCED-F 06 -->
+
+### Software & Applications
+
+- [Computer Science](/c/computer-science/)
+- [Data Science](/c/data-science/)
+- [ML Engineer](/ml-engineer/)
+
+### Systems & Networks
+
+- [System Engineer](/c/system-engineer/)
+- [Cybersecurity](/c/cybersecurity/)
+
+## Engineering, Manufacturing & Construction <!-- ISCED-F 07 -->
+
+- [BioEngineering](/bioengineering/)
+- [Mechanical Engineer](/mechanical-engineer/)
+- [BioMedical Engineering](/biomedical-engineering/)
+
+## Health & Welfare <!-- ISCED-F 09 -->
+
+- [Nutrition](/nutrition/)

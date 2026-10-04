@@ -1,0 +1,12 @@
+
+- [TheMoeWay](http://learnjapanese.moe/)
+- [Donkuri](https://donkuri.github.io/learn-japanese/)
+- [All Japanese All The Time (AJATT)](http://www.alljapaneseallthetime.com/blog/)
+- [Jo-Mako's Japanese Guide](https://sites.google.com/view/jo-mako/home)
+- [VN Club](https://vnclub.org/)
+- [Perdition's Guide](https://perdition-japanese.github.io/posts/how-to-study-japanese/)
+- [A Year to Learn Japanese](https://docs.google.com/document/d/10bRzVblKVOsQJjTc2PIi1Gbj_LrsJCkMkh0SutXCZdI/edit)
+- [Japanese with Anime](https://www.japanesewithanime.com/)
+- [r/LearnJapanese Starter's Guide](https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide/)
+- [Jazzy's Guide](https://rentry.co/jazzy180)
+- [Mordraug's Personal Japanese Observations Diary](https://docs.google.com/document/d/1kxYa53a2UjnpMZyHdU-YNuctkq6wHT3cJ00Z5poj2hY/edit)

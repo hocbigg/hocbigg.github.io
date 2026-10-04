@@ -1,6 +1,6 @@
-# Changing the curriculum
+# Changing any curricula
 
-This curriculum thrives because of the changes made by our many contributors. Read on for details on how to help every student that follows you.
+Hocbigg thrives because of the changes made by our many contributors. Read on for details on how to help every student that follows you.
 
 ## Non-substantive changes
 
@@ -13,4 +13,5 @@ If you have specific and substantive criticisms of the curriculum, i.e. problems
 ## Other ways to contribute
 
 ### Responding to Issues
+
 Issues require more than just users to suggest them. Issues require active community members to read and respond to proposals. Even adding simple [emoji reactions](https://github.blog/2016-03-10-add-reactions-to-pull-requests-issues-and-comments/) can help the community.
