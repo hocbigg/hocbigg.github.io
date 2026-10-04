@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex">
+
+  <title>Page Not Found - Hocbigg</title>
+  <meta name="description" content="The page you are looking for could not be found.">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1a1a1a;
+      --muted: #595959;
+      --border: #e0e0e0;
+      --link: #0969da;
+      --focus-ring: #0969da;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0d1117;
+        --fg: #e6edf3;
+        --muted: #8b949e;
+        --border: #30363d;
+        --link: #58a6ff;
+        --focus-ring: #58a6ff;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 4rem auto;
+      max-width: min(44rem, 92vw);
+      padding: 0 1rem;
+      background-color: var(--bg);
+      color: var(--fg);
+      font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      text-align: center;
+    }
+    :focus-visible {
+      outline: 2px solid var(--focus-ring);
+      outline-offset: 3px;
+    }
+    .error-code {
+      font-size: 5rem;
+      font-weight: 800;
+      line-height: 1;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.05em;
+    }
+    h1 {
+      font-size: 1.6rem;
+      margin-top: 0;
+      margin-bottom: 0.75rem;
+    }
+    p {
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+    a.btn-home {
+      display: inline-block;
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      text-decoration: none;
+      color: var(--fg);
+      font-weight: 500;
+    }
+    a.btn-home:hover, a.btn-home:focus-visible {
+      text-decoration: underline;
+      background-color: var(--border);
+    }
+  </style>
+</head>
+<body>
+  <main id="main-content">
+    <div class="error-code">404</div>
+    <h1>Looks like you're lost...</h1>
+    <p>The page you are looking for doesn't exist or wandered off.<br>No worries, let's get you back on track.</p>
+    <a href="https://hocbigg.github.io/" class="btn-home">Take me home</a>
+  </main>
+</body>
+</html>
